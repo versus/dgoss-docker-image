@@ -1,4 +1,4 @@
-FROM docker:18.05
+FROM docker:dind
 
 COPY ./goss /usr/local/bin/goss
 COPY ./dgoss /usr/local/bin/dgoss
